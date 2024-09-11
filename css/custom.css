@@ -7,6 +7,9 @@ html, body {
     color: black;
     line-height: 1.5;
 }
+.margin-10 {
+    margin: 10px;
+}
 section {
     display: flex;
 }
@@ -29,6 +32,7 @@ padd-2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .main-container {    
     display: flex;
     flex-direction: column;
@@ -40,6 +44,8 @@ padd-2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 .container-row {
     justify-content: space-between;
@@ -156,15 +162,30 @@ padd-2 {
 .w-90 {
     width:90%;
 }
+.w-90-5 {
+    width:90%;
+}
 .w-50 {
+    width: 50%;
+}
+.w-50-5 {
     width: 50%;
 }
 .w-60{
     width: 60%;
 }
+.w-60-5{
+    width: 60%;
+}
 .w-70{
     width: 70%;
 }
+.w-70-5{
+    width: 70%;
+}
 .w-80{
+    width: 80%;
+}
+.w-80-5{
     width: 80%;
 }
